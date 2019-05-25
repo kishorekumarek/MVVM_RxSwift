@@ -1,0 +1,21 @@
+#OS X
+.DS_STORE
+
+#XCode
+xcuserdata
+*.xcworkspace
+*.xccheckout
+
+Pods/
+Podfile.lock
+.idea/
+
+## Build generated
+build/
+DerivedData/
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
