@@ -99,17 +99,9 @@
 		0E34D35C2298807F000CD87A /* MVVM_RxSwift */ = {
 			isa = PBXGroup;
 			children = (
-				0E34D35D2298807F000CD87A /* AppDelegate.swift */,
-				0E34D3842299F54F000CD87A /* Protocols.swift */,
-				0E34D35F2298807F000CD87A /* PostsViewController.swift */,
-				0E34D3822299F536000CD87A /* PostsViewModel.swift */,
-				0E34D3802299F517000CD87A /* PostsDataManager.swift */,
-				0E34D3862299F8C0000CD87A /* Post.swift */,
-				0E34D3612298807F000CD87A /* Main.storyboard */,
-				0E34D36722988082000CD87A /* Assets.xcassets */,
-				0E34D36922988082000CD87A /* LaunchScreen.storyboard */,
+				0EE7BFB422A109EC00B6814D /* Common */,
+				0EE7BFB522A109FB00B6814D /* Modules */,
 				0E34D36C22988082000CD87A /* Info.plist */,
-				0E34D3642298807F000CD87A /* MVVM_RxSwift.xcdatamodeld */,
 			);
 			path = MVVM_RxSwift;
 			sourceTree = "<group>";
@@ -121,6 +113,102 @@
 				0E34D37722988082000CD87A /* Info.plist */,
 			);
 			path = MVVM_RxSwiftTests;
+			sourceTree = "<group>";
+		};
+		0EE7BFB222A109D200B6814D /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				0E34D35D2298807F000CD87A /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		0EE7BFB322A109E200B6814D /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				0E34D3842299F54F000CD87A /* Protocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		0EE7BFB422A109EC00B6814D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0EE7BFBC22A10A6400B6814D /* CoreDataModel */,
+				0EE7BFBB22A10A4900B6814D /* Assets */,
+				0EE7BFBA22A10A3900B6814D /* Storyboard */,
+				0EE7BFB222A109D200B6814D /* AppDelegate */,
+				0EE7BFB322A109E200B6814D /* Protocols */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		0EE7BFB522A109FB00B6814D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				0EE7BFB622A10A0800B6814D /* Posts */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		0EE7BFB622A10A0800B6814D /* Posts */ = {
+			isa = PBXGroup;
+			children = (
+				0EE7BFB722A10A1A00B6814D /* Scenes */,
+				0EE7BFB922A10A2E00B6814D /* Domain */,
+				0EE7BFB822A10A2300B6814D /* Repository */,
+			);
+			path = Posts;
+			sourceTree = "<group>";
+		};
+		0EE7BFB722A10A1A00B6814D /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				0E34D35F2298807F000CD87A /* PostsViewController.swift */,
+				0E34D3822299F536000CD87A /* PostsViewModel.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		0EE7BFB822A10A2300B6814D /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				0E34D3802299F517000CD87A /* PostsDataManager.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		0EE7BFB922A10A2E00B6814D /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				0E34D3862299F8C0000CD87A /* Post.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		0EE7BFBA22A10A3900B6814D /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				0E34D3612298807F000CD87A /* Main.storyboard */,
+				0E34D36922988082000CD87A /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		0EE7BFBB22A10A4900B6814D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				0E34D36722988082000CD87A /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		0EE7BFBC22A10A6400B6814D /* CoreDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				0E34D3642298807F000CD87A /* MVVM_RxSwift.xcdatamodeld */,
+			);
+			path = CoreDataModel;
 			sourceTree = "<group>";
 		};
 		21C43DAE7299808D6FE54BCD /* Pods */ = {
